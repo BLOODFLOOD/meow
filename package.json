@@ -1,0 +1,24 @@
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "im learning npm",
+  "license": "ISC",
+  "author": "sagar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "inquirer": "^12.6.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10",
+    "qr-image": "^3.2.0",
+    "sillyname": "^0.1.0",
+    "superheroes": "^4.0.0"
+  },
+  "devDependencies": {}
+}

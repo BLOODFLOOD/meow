@@ -1,0 +1,14 @@
+<%-include ("partials/header.ejs")%>
+
+<form method="POST" action="/notes" class="mb-4">
+    <div class="mb-3">
+      <input type="text" class="form-control" name="title" placeholder="Note Title" required>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" name="content" placeholder="Note Content" required></textarea>
+    </div>
+    <button class="btn btn-primary">Add Note</button>
+  </form>
+
+
+<%-include ("partials/footer.ejs")%>
